@@ -1,0 +1,11 @@
+{
+    "name": "Api",
+    "crud": {
+        "unique": [ "url" ],
+        "update": {
+            "keys": ["name", "description", "data"]
+        },
+        "delete": [""]
+    },
+    "dependencies": {}
+}
